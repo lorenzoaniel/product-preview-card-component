@@ -1,0 +1,51 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+	font-family: "Fraunces";
+	src: url("/assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf")
+		format("truetype");
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+* ::-webkit-scrollbar {
+	display: none;
+}
+
+/* GENERAL */
+
+* {
+	box-sizing: border-box;
+	/* Hide scrollbar for Internet Explorer and Edge */
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+html {
+	height: fit-content;
+	font-size: 62.5%;
+	overflow-y: scroll;
+}
+
+body,
+#root {
+	height: inherit;
+	font-size: 1.6rem;
+}
+
+.attribution {
+	font-size: 16px;
+	text-align: center;
+
+	background-color: #ffffff;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}

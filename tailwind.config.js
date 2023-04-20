@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ["./src/**/*.{js,jsx,ts,tsx,vue,html}"],
+	content: ["./src/**/*.{js,jsx,ts,tsx,html}"],
 	media: false, // or 'media' or 'class'
 	theme: {
 		colors: {
@@ -12,12 +12,12 @@ export default {
 			gunmetal: `#1C232B`,
 		},
 		fontFamily: {
-			manrope: ["Manrope", "monospace"],
+			fraunces: ["Fraunces", "monospace"],
+			montserrat: ["Montserrat", "monospace"],
 		},
 		extend: {
 			// Add custom breakpoints if needed
 			screens: {
-				sm: "640px",
 				md: "768px",
 				lg: "1440px",
 			},
