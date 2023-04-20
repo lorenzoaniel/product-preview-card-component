@@ -4,8 +4,9 @@
 
 @font-face {
 	font-family: "Fraunces";
-	src: url("/assets/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf")
+	src: url("/assets/fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf")
 		format("truetype");
+	font-variant: 144pt;
 }
 
 @font-face {
@@ -28,7 +29,7 @@
 }
 
 html {
-	height: fit-content;
+	height: 100vh;
 	font-size: 62.5%;
 	overflow-y: scroll;
 }

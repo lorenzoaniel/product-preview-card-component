@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx,html}"],
 	media: false, // or 'media' or 'class'
 	theme: {
@@ -12,13 +12,13 @@ export default {
 			gunmetal: `#1C232B`,
 		},
 		fontFamily: {
-			fraunces: ["Fraunces", "monospace"],
+			fraunces: ["Fraunces", "serif"],
 			montserrat: ["Montserrat", "monospace"],
 		},
 		extend: {
 			// Add custom breakpoints if needed
 			screens: {
-				md: "768px",
+				sm: "375px",
 				lg: "1440px",
 			},
 		},

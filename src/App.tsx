@@ -1,13 +1,27 @@
 import React from "react";
 import "./styles/_globalStyle.css";
+import ProductPreviewCard from "./components/productpreviewcard";
+import { testdata } from "./api/testdata";
 
 const App: React.FC = () => {
 	return (
 		<main
 			className="App 
-      text-[5rem]"
+			bg-cream
+			h-full
+			flex
+			justify-center
+			items-center
+			"
 		>
-			test
+			<ProductPreviewCard
+				productCategory={testdata.productCategory}
+				productName={testdata.productName}
+				productDesc={testdata.productDesc}
+				productPrice={testdata.productPrice}
+				productPriceDiscount={testdata.productPriceDiscount}
+				productPriceCurrency={testdata.productPriceCurrency}
+			/>
 		</main>
 	);
 };
