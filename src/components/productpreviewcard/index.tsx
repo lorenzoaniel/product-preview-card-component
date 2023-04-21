@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import productimgmobile from "/assets/images/image-product-mobile.jpg";
-import productimgdesktop from "/assets/images/image-product-desktop.jpg";
+import productimgmobile from "./../../assets/images/image-product-mobile.jpg";
+import productimgdesktop from "./../../assets/images/image-product-desktop.jpg";
 import { def_theme } from "../../styles/themes/def_theme";
 import CartButton from "../button/CartButton";
 

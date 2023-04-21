@@ -1,5 +1,5 @@
 import React from "react";
-import cartImg from "/assets/images/icon-cart.svg";
+import cartImg from "./../../assets/images/icon-cart.svg";
 import { def_theme } from "../../styles/themes/def_theme";
 
 const CartButton: React.FC = () => {
